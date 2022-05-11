@@ -1,0 +1,17 @@
+caption{
+    text-align: center;
+    font-style: italic;
+}
+table{
+    width: 70%;
+    height: 400px;
+}
+tr{
+    text-align: center;
+    height: 90px; width: 30%;
+}
+
+th{
+    width: 30%;
+    height: 90px;
+}

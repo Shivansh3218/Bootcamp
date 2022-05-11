@@ -1,0 +1,17 @@
+caption{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+tr{
+    text-align: center;
+}
+table{ 
+    
+    width: 70%;
+    height: 400px;
+    padding: 0%;
+}
+#row1{
+    background-color: aquamarine;
+}

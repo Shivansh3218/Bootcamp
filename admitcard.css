@@ -1,0 +1,12 @@
+section{
+    border: 1;
+    float: left;
+    width: 10;
+}
+
+#photo{
+    float: right;
+    border: 1px solid black ;
+    width: auto;
+    margin-right: 90px;
+}

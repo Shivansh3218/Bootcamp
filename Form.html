@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+
+    <form action="/action.php" style="padding: 10px;"> 
+        <h1 style="margin-left: 10%;">  Sign Up</h1>
+
+
+      
+        <label for="name"><h3>Name*</h3></label>
+        <Input type="text" placeholder="First Name" style="border: none; border-bottom: 1px solid black;" required></Input>
+        <Input type="text" placeholder="Last Name" style=" margin-left: 30px; border: none; border-bottom: 1px solid black;" ></Input>
+
+        <label for="email"><h3>Email Address*</h3></label>
+        <Input type="text" placeholder="example@gmail.com" style="border: none; border-bottom: 1px solid black;" required></Input>
+
+        <label for="Password"><h3>Password*</h3></label>
+        <Input type="password" style="border: none; border-bottom: 1px solid black;" required></Input>
+
+        <label for="Password"><h3> Confirm Password*</h3></label>
+        <Input type="password" style="border: none; border-bottom: 1px solid black;"  required></Input>
+
+        <label for="date of birth"><h3>Date of birth*</h3></label>
+        <Input type="date"  ></Input>
+
+        <label for="id1"><h3>Gender*</h3></label>
+        <Input type="radio"  value="Male" name="gender" id="id1">Male</Input>
+        <Input type="radio"  value="Female" name="gender" id="id1">Female</Input>
+
+        
+        <label for="id2"><h3>Language known*</h3></label>
+        <Input type="checkbox"  value="React" name="Language known" id="id2">React</Input>
+        <Input type="checkbox"  value="Angular" name="Language known" id="id2">Angular</Input>
+        <Input type="checkbox"  value="Vue" name="Language known" id="id2">Vue</Input>
+
+
+        <label for="id3"><h3>Experience level*</h3></label>
+        <select name="city">
+            <option value="Beginner">Beginner</option>
+            <option value="Experienced">Experienced</option>
+            <option value="Professional">Professional</option>
+        </select>
+<br>
+
+        <label for="id4" required><h3>Tell us something about yourself* </h3></label>
+        <textarea name="Feedback" id="id4" rows="5"></textarea>
+<br>
+        <Input type="checkbox"  value="Terms and conditions" name="Terms and conditions" id="id2">I agree to <a href="https://www.thepersonalitylab.org/terms-conditions?gclid=CjwKCAjw9-KTBhBcEiwAr19igw-N71iBDFJp1r4ANLoNuOH1Sr4MkExBOW0PhwGiT-wemHS5kK3V-hoCwwsQAvD_BwE">T&C</a></Input>
+<br>
+        
+<button style="background-color: rgb(86, 86, 194); width: 100%;color: aliceblue;border-radius: 3px; ">Submit</button>
+
+
+    </form>
+
+</body>
+</html>
